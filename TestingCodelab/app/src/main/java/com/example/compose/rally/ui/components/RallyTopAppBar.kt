@@ -65,7 +65,7 @@ fun RallyTopAppBar(
                     text = screen.name,
                     icon = screen.icon,
                     onSelected = { onTabSelected(screen) },
-                    selected = currentScreen == screen
+                    selected = currentScreen == screen,
                 )
             }
         }
